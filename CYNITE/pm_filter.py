@@ -1333,7 +1333,7 @@ async def advantage_spell_chok(msg):
             url=f"https://t.me/Sujan_Contact_Bot"
         ),
         InlineKeyboardButton(
-            text="ɢᴏᴏɢʟᴇ",
+            text="Gᴏᴏɢʟᴇ",
             url=f"https://google.com/search?q={search}"
         )
     ]]
