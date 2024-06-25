@@ -118,8 +118,6 @@ MADE BY @Sujan_BotZ</b>"""
 
 <b>☢️ ʀᴀᴍ:</b> <code>{}%</code>
 
-<b>📊 ғɪʟᴇs sᴀᴠᴇᴅ:</b> <code>{}</code>
-
 <b>👤 ᴜsᴇʀs:</b> <code>{}</code>
 
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
