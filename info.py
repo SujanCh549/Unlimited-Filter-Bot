@@ -24,7 +24,7 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/2d8c4941b2afbd5f01d22.jpg https://graph.org/file/0a930db0eb217e430c4cf.jpg https://graph.org/file/f539c6e7de063912724b2.jpg https://graph.org/file/bad5da58bb38181693a7a.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b60d2facc538ad82ad22d.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/723cc966cc392410c64f3.jpg")
 NEWGRP = environ.get("NEWGRP", "https://graph.org/file/6d2e12a6d0dcd9261d909.jpg")
 
 # Admins, Channels & Users
@@ -82,7 +82,7 @@ MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 10))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
