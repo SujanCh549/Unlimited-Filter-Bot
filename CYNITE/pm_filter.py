@@ -1283,6 +1283,8 @@ async def advantage_spell_chok(msg):
     if not g_s:
         btn = [[
             InlineKeyboardButton(' Gᴏᴏɢʟᴇ ', url=f"https://google.com/search?q={search}")
+            ],[
+            InlineKeyboardButton(' Cᴏɴᴛᴀᴄᴛ Tᴏ Aᴅᴍɪɴ ', url=f"https://t.me/Sujan_Contact_Bot")
         ]]           
         k = await msg.reply_photo(photo=SPELL_IMG, caption=script.I_CUDNT, reply_markup=InlineKeyboardMarkup(btn))    
         await asyncio.sleep(SPL_DELETE_TIME)
@@ -1316,6 +1318,8 @@ async def advantage_spell_chok(msg):
     if not movielist:
         btn = [[
             InlineKeyboardButton(' Gᴏᴏɢʟᴇ ', url=f"https://google.com/search?q={search}")
+            ],[
+            InlineKeyboardButton(' Cᴏɴᴛᴀᴄᴛ Tᴏ Aᴅᴍɪɴ ', url=f"https://t.me/Sujan_Contact_Bot")
         ]]           
         k = await msg.reply_photo(photo=SPELL_IMG, caption=script.CUDNT_FND, reply_markup=InlineKeyboardMarkup(btn))    
         await asyncio.sleep(SPL_DELETE_TIME)
