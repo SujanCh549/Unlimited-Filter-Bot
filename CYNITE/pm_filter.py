@@ -1329,8 +1329,8 @@ async def advantage_spell_chok(msg):
     SPELL_CHECK[msg.id] = movielist
     btn = [[
         InlineKeyboardButton(
-            text="ɪɴsᴛʀᴜᴄᴛɪᴏɴs",
-            callback_data="splmd"
+            text="Cᴏɴᴛᴀᴄᴛ Tᴏ Aᴅᴍɪɴ",
+            url=f"https://t.me/Sujan_Contact_Bot"
         ),
         InlineKeyboardButton(
             text="ɢᴏᴏɢʟᴇ",
@@ -1348,10 +1348,6 @@ async def advantage_spell_chok(msg):
         photo=(SPELL_IMG),
         caption=(script.CUDNT_FND),
         reply_markup=InlineKeyboardMarkup(btn)
-    )
-    await asyncio.sleep(5)
-    await spl1.edit("<b>I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏᴛʜɪɴɢ Rᴇʟᴀᴛᴇᴅ ᴛᴏ Tʜᴀᴛ\nDɪᴅ Yᴏᴜ Mᴇᴀɴ Aɴʏ Oɴᴇ ᴏғ Tʜᴇsᴇ ?</b>",
-        reply_markup=InlineKeyboardMarkup(btn2)
     )
     await asyncio.sleep(SPL_DELETE_TIME)
     await spl1.delete()
