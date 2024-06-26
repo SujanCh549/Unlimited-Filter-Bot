@@ -42,7 +42,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Sujan_BotZ')
+                    InlineKeyboardButton('Gᴇᴛ Mᴏʀᴇ Mᴏᴠɪᴇ ', url='https://t.me/+IhrdZgCypNFlYjZl')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -84,7 +84,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Sujan_BotZ')
+                    InlineKeyboardButton('Gᴇᴛ Mᴏʀᴇ Mᴏᴠɪᴇ ', url='https://t.me/+IhrdZgCypNFlYjZl')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -136,7 +136,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Sujan_BotZ')
+                          InlineKeyboardButton('Gᴇᴛ Mᴏʀᴇ Mᴏᴠɪᴇ ', url='https://t.me/+IhrdZgCypNFlYjZl')
                        ]
                         ]
                     )
@@ -152,7 +152,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Sujan_BotZ')
+                          InlineKeyboardButton('Gᴇᴛ Mᴏʀᴇ Mᴏᴠɪᴇ ', url='https://t.me/+IhrdZgCypNFlYjZl')
                        ]
                         ]
                     )
@@ -220,8 +220,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('Gᴇᴛ Mᴏʀᴇ Mᴏᴠɪᴇ ', url='https://t.me/+IhrdZgCypNFlYjZl')
                    ]
                     ]
                 )
@@ -261,7 +260,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/Sujan_BotZ')
+              InlineKeyboardButton('Gᴇᴛ Mᴏʀᴇ Mᴏᴠɪᴇ ', url='https://t.me/+IhrdZgCypNFlYjZl')
            ]
             ]
         )
