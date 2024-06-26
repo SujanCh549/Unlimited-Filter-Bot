@@ -28,7 +28,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url=f'https://t.me/Sujan_BotZ')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -43,20 +43,19 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=CHNL_LNK),
-                    InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ', url=f"https://t.me/CyniteSupport")
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url="t.me/Sujan_BotZ)
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=NEWGRP,
-            caption=f"ᴛʜᴀɴᴋs ᴛᴏ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ. {message.chat.title} ❣️\n\nɪs ᴀɴʏ ᴅᴏᴜʙᴛs ᴀʙᴏᴜᴛ ᴜsɪɴɢ ᴍᴇ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ 👇",
+            caption=f"Tʜᴀɴᴋs Tᴏ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ. {message.chat.title} ❣️",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton("ɢʀᴏᴜᴘ📌", url="https://t.me/cynitesupport")
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="https://t.me/Sujan_BotZ")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
@@ -64,8 +63,8 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
-                photo="https://telegra.ph/file/5c586e00f34665267ab5b.jpg",
-                caption=f"<b>🔖 ʜᴇʟʟᴏ ᴍʏ ғʀɪᴇɴᴅ {u.mention},</b>\n<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {message.chat.title} !</b>\n\n<b>ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ...</b>",
+                photo="https://graph.org/file/6d2e12a6d0dcd9261d909.jpg",
+                caption=f"<b>🔖 Hᴇʟʟᴏ Mʏ Fʀɪᴇɴᴅ {u.mention},</b>\n<b>Wᴇʟᴄᴏᴍᴇ Tᴏ {message.chat.title} !</b>",
                 reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(60)
                 await temp.MELCOW['welcome'].delete()
@@ -81,7 +80,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url=f'https://t.me/Sujan_BotZ')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -125,7 +124,7 @@ async def disable_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hᴇʟʟᴏ Fʀɪᴇɴᴅs,\n\nMʏ Aᴅᴍɪɴs Hᴀs Tᴏʟᴅ Mᴇ Tᴏ Lᴇᴀᴠᴇ Fʀᴏᴍ Gʀᴏᴜᴘ Sᴏ I Gᴏ! Iғ Yᴏᴜ Wᴀɴɴᴀ Aᴅᴅ Mᴇ Aɢᴀɪɴ Cᴏɴᴛᴀᴄᴛ Mʏ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.\n\nRᴇᴀsᴏɴ :</b> <code>{reason}</code>',
+            text=f'<b>Hᴇʟʟᴏ Fʀɪᴇɴᴅs,\n\nMʏ Aᴅᴍɪɴs Hᴀs Tᴏʟᴅ Mᴇ Tᴏ Lᴇᴀᴠᴇ Fʀᴏᴍ Gʀᴏᴜᴘ Sᴏ I Gᴏ! Iғ Yᴏᴜ Wᴀɴɴᴀ Aᴅᴅ Mᴇ Aɢᴀɪɴ Cᴏɴᴛᴀᴄᴛ.\n\nRᴇᴀsᴏɴ :</b> <code>{reason}</code>',
             reply_markup=reply_markup)
         await bot.leave_chat(chat_)
         await bot.send_message(LOG_CHANNEL, script.BANG_LOG_TXT.format(chat_, reason, message.from_user.mention))
