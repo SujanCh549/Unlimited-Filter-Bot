@@ -43,7 +43,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url="t.me/Sujan_BotZ)
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url="t.me/Sujan_BotZ")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
