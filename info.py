@@ -40,7 +40,7 @@ FILDLT_CNL = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sujanth564:sujanth564@cluster0.8bgxp.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Sujan_BotZ")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Sujan_Ch")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
